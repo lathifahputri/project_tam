@@ -1,0 +1,196 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/biru"
+    tools:context=".Datang">
+
+    <TextView
+        android:id="@+id/datang"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="105dp"
+        android:layout_marginBottom="645dp"
+        android:text="Absensi Datang"
+        android:textAlignment="center"
+        android:textColor="#fff"
+        android:textSize="30dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="25dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginEnd="29dp"
+        android:layout_marginBottom="598dp"
+        android:background="@color/merah"
+        android:drawableStart="@drawable/info"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:hint="Absen diwajibkan menggunakan foto selfie yaa:)"
+        android:inputType="text"
+        android:paddingStart="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="41dp"
+        android:layout_marginEnd="124dp"
+        android:layout_marginBottom="565dp"
+        android:text="Ambil Foto Selfie"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <ImageButton
+        android:id="@+id/gmbr"
+        android:layout_width="300dp"
+        android:layout_height="75dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="68dp"
+        android:layout_marginBottom="475dp"
+        android:drawablePadding="4dp"
+        android:src="@drawable/camera"
+        android:elevation="8dp"
+        android:paddingStart="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="44dp"
+        android:layout_marginEnd="121dp"
+        android:layout_marginBottom="438dp"
+        android:text="Nama"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="58dp"
+        android:layout_marginBottom="379dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:hint="Masukkan Nama"
+        android:inputType="text"
+        android:paddingStart="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="43dp"
+        android:layout_marginEnd="122dp"
+        android:layout_marginBottom="346dp"
+        android:text="Tanggal"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="52dp"
+        android:layout_marginBottom="294dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:hint="Masukkan Tanggal"
+        android:inputType="text"
+        android:paddingStart="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="260dp"
+        android:text="Waktu"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="55dp"
+        android:layout_marginBottom="206dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:hint="Masukkan Waktu"
+        android:inputType="text"
+        android:paddingStart="8dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginLeft="5dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginEnd="123dp"
+        android:layout_marginBottom="168dp"
+        android:text="Keterangan"
+        android:textColor="#fff"
+        android:textSize="15dp" />
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="54dp"
+        android:layout_marginBottom="107dp"
+        android:background="@drawable/edit"
+        android:drawablePadding="4dp"
+        android:elevation="8dp"
+        android:hint="Masukkan Keterangan"
+        android:inputType="text"
+        android:paddingStart="8dp" />
+
+    <Button
+        android:id="@+id/d_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="156dp"
+        android:layout_marginBottom="41dp"
+        android:background="@drawable/edit"
+        android:text="Submit" />
+
+    <ImageButton
+        android:id="@+id/arrow_back"
+        android:layout_width="45dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="30dp"
+        android:src="@drawable/arrow" />
+</RelativeLayout>

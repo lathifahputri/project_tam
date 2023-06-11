@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav"
+    app:startDestination="@id/first">
+
+    <fragment
+        android:id="@+id/first"
+        android:name="com.sarah.project_tam.first"
+        android:label="fragment_first"
+        tools:layout="@layout/fragment_first" >
+        <action
+            android:id="@+id/action_first_to_utama"
+            app:destination="@id/utama" />
+    </fragment>
+    <fragment
+        android:id="@+id/utama"
+        android:name="com.sarah.project_tam.Utama"
+        android:label="fragment_utama"
+        tools:layout="@layout/fragment_utama" >
+        <action
+            android:id="@+id/action_utama_to_datang2"
+            app:destination="@id/datang2" />
+        <action
+            android:id="@+id/action_utama_to_riwayat"
+            app:destination="@id/riwayat" />
+        <action
+            android:id="@+id/action_utama_to_perizinan"
+            app:destination="@id/perizinan" />
+        <action
+            android:id="@+id/action_utama_to_pulang2"
+            app:destination="@id/pulang2" />
+    </fragment>
+    <fragment
+        android:id="@+id/datang2"
+        android:name="com.sarah.project_tam.Datang"
+        android:label="fragment_datang"
+        tools:layout="@layout/fragment_datang" >
+        <action
+            android:id="@+id/action_datang2_to_pict"
+            app:destination="@id/pict" />
+        <action
+            android:id="@+id/action_datang2_to_done2"
+            app:destination="@id/done2" />
+        <action
+            android:id="@+id/action_datang2_to_utama"
+            app:destination="@id/utama" />
+    </fragment>
+    <fragment
+        android:id="@+id/pict"
+        android:name="com.sarah.project_tam.pict"
+        android:label="fragment_pict"
+        tools:layout="@layout/fragment_pict" >
+        <action
+            android:id="@+id/action_pict_to_datang2"
+            app:destination="@id/datang2" />
+    </fragment>
+    <fragment
+        android:id="@+id/done2"
+        android:name="com.sarah.project_tam.Done"
+        android:label="fragment_done"
+        tools:layout="@layout/fragment_done" >
+        <action
+            android:id="@+id/action_done2_to_riwayat"
+            app:destination="@id/riwayat" />
+    </fragment>
+    <fragment
+        android:id="@+id/pulang2"
+        android:name="com.sarah.project_tam.Pulang"
+        android:label="fragment_pulang"
+        tools:layout="@layout/fragment_pulang" >
+        <action
+            android:id="@+id/action_pulang2_to_submit"
+            app:destination="@id/submit" />
+        <action
+            android:id="@+id/action_pulang2_to_foto2"
+            app:destination="@id/foto2" />
+        <action
+            android:id="@+id/action_pulang2_to_utama"
+            app:destination="@id/utama" />
+    </fragment>
+    <fragment
+        android:id="@+id/submit"
+        android:name="com.sarah.project_tam.Submit"
+        android:label="fragment_submit"
+        tools:layout="@layout/fragment_submit" >
+        <action
+            android:id="@+id/action_submit_to_riwayat"
+            app:destination="@id/riwayat" />
+    </fragment>
+    <fragment
+        android:id="@+id/perizinan"
+        android:name="com.sarah.project_tam.Perizinan"
+        android:label="fragment_perizinan"
+        tools:layout="@layout/fragment_perizinan" >
+        <action
+            android:id="@+id/action_perizinan_to_riwayat"
+            app:destination="@id/riwayat" />
+    </fragment>
+    <fragment
+        android:id="@+id/riwayat"
+        android:name="com.sarah.project_tam.Riwayat"
+        android:label="fragment_riwayat"
+        tools:layout="@layout/fragment_riwayat" >
+        <action
+            android:id="@+id/action_riwayat_to_utama"
+            app:destination="@id/utama" />
+    </fragment>
+    <fragment
+        android:id="@+id/foto2"
+        android:name="com.sarah.project_tam.foto"
+        android:label="fragment_foto"
+        tools:layout="@layout/fragment_foto" >
+        <action
+            android:id="@+id/action_foto2_to_pulang2"
+            app:destination="@id/pulang2" />
+    </fragment>
+</navigation>
